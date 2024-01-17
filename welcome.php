@@ -31,8 +31,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         <div class="container-fluid">
             <h1> Bienvenid@ 
                 <?php
-                //iniciarSesion();
-                session_start();
+                iniciarSesion();
+                
                 if (!isset($_SESSION["visitas"])) {
                     $_SESSION["visitas"] = 1;
                 } else {

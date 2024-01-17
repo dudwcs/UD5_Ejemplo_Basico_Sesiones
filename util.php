@@ -36,18 +36,7 @@ function isUserLoggedIn() {
     return $autenticado; //&& isUserActive();
 }
 
-// function isUserActive(): bool {
-//     $active = false;
-//     $actual_time = time();
-//     $diff = $actual_time - $_SESSION["ultimoAcceso"];
-//     if ($diff < MAX_SECONDS_INACTIVITY) {
-//         $active = true;
-//     } else {
-//         cerrarSesion();
-//     }
 
-//     return $active;
-// }
 
 function iniciarSesion(): bool {
     $iniciada = true;
