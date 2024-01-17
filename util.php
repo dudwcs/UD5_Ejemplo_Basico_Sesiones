@@ -54,6 +54,5 @@ function iniciarSesion(): bool {
     if (session_status() !== PHP_SESSION_ACTIVE) {
         $iniciada = session_start();
     }
-
     return $iniciada;
 }
